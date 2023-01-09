@@ -34,13 +34,13 @@
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/inika-v21-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/inika-v21-latin-700.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('../fonts/inika-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/inika-v21-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
+         url('./fonts/inika-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/inika-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/inika-v21-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
   }
 html{
  box-sizing: border-box;
@@ -130,7 +130,8 @@ body {
                justify-content: space-between;
                align-items: center;
                height: 407px;
-               width: 84.7%; /* width 1220px! Consider/designer mistake*/
+               width: 84.72%; 
+               padding-right: 1.82%;/* width 1220px! Consider/designer mistake*/
              }
                    .leafs {
                        width: 36.8%;
@@ -140,11 +141,9 @@ body {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
-                        align-items: center;
-                        width: 38.2vw;
-                        margin-left: 14vw;
+                        width: 45.8%;
                         height: 323px;
-                        
+                        margin-top: 18px;
 
                      }
                      h1 {
@@ -154,6 +153,7 @@ body {
                         font-weight: Bold;
                         text-align: left;
                         font-size: 45px;
+                        line-height: 50px;
                         
                         color: #717171;
                      }
@@ -162,25 +162,27 @@ body {
                      }
                      .p_leafs {
                         align-self: end;
-                        width: 95.6%;
+                        width: 95.8%;
                         height: 105px;
                         font-size: 20px;
                         line-height: 35px;
                         text-align: left;
-                        
+                        vertical-align: top;
                         color: #636060;
+                        margin-top: 0px;
                      }
                      .button_more {
-                        align-self: baseline;
-                        margin-left: 4.37%;
+                        margin-left: 25px;
                         width: 28.8%;
                         height: 44px;
                         font-weight: 400;
                         text-align: center;
                         border-width: 2px;
                         border-radius: 10px;
-                        border-color: #E06733;;
+                        border-color: #E06733;
                         background-color: #EDF2EC;
+                        font-size: 16px;
+                        line-height: 20px;
                      }
      .about {
         display: flex;
