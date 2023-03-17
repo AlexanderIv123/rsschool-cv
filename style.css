@@ -1,3 +1,16 @@
 html{
     box-sizing: border-box;
 }
+.wrapper{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding-inline: 2%;
+}
+.cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    width: 90%;
+}
