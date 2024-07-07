@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/rsschool-cv/assets/fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+body{
+  font-family: 'Roboto';
+  font-weight: 300;
+}
