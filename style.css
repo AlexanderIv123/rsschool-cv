@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/rsschool-cv/assets/fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(assets/fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(183, 208, 199);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main{
+}
+
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: large;
+  color: black;
+}
+.nav-link:hover{
+  color: peru;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+#avatar{
+max-width: 800px;
+}
+
+.h1{
+  letter-spacing: 0.1em;
+  font-size: 50px;
+  margin: 0;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  #avatar{
+    max-width: 768px;
+  }
+}
+
+li{
+  padding-top: 10px;
+}
+
+.projects-link:hover{
+  color: dodgerblue;
+}
+
+.footer{
+  background-color: goldenrod;
+  }
+
+.footer-container{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover{
+  color: blue;
+}
+
+.rs-link{
+width: 50px;
+height: 50px;
+}
